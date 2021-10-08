@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <nav
+    class="
+      navbar navbar-expand-lg navbar-light
+      bg-transparent
+      navbar-fixed-top
+    "
+    style="border-bottom: 1px solid rgb(233, 233, 233)"
+  >
+    <a class="navbar-brand" href="#"><img src="./images/logo.jpg" /></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="login.html">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="signup.html">Register</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="jobs.html">Jobs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="shop.html">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="shopItem1.html">Shop Item</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <button
+          class="btn my-2 my-sm-0 m-2"
+          type="submit"
+          style="color: #0069d9"
+        >
+          Upload your CV
+        </button>
+        <button
+          class="btn my-2 my-sm-0 m-2"
+          type="submit"
+          style="color: #0069d9; background-color: rgb(223, 236, 250)"
+        >
+          Login / Regsiter
+        </button>
+        <button class="btn btn-primary my-2 my-sm-0 m-2" type="submit">
+          Job Post
+        </button>
+      </form>
+    </div>
+  </nav>
+<div class="datafield">
+
+    <div id="InnerData">
+        <div>
+            <h4 class="loginHead" style="margin-left: 1%;">Create a free Jobio Account</h4>
+            <br />
+            <input type="submit" id="firstbtn" value="Conditions">
+            <input type="submit" id="secondbtn" value="Register">
+
+        </div>
+        <br>
+        <div>
+            <form>
+                <label>Email Address</label><br>
+                <input type="email" id="loginEmail" name="loginEmail" class="fields" placeholder="   you@example.com"><br>
+                <label class="inlineOne">Password  <br></label><br>
+                <input type="password" id="loginPass" name="password" class="fields" placeholder="   Enter 6 character or more">
+                <br>
+                <br>
+               
+                <input type="submit" id="myButton" value="Register">
+                <br>
+            </form>
+        </div>
+        <div>
+            <br />
+
+            <hr id="lineOne" >
+            <p id="loginPara">or</p>
+            <hr id="lineTwo">
+
+        </div>
+
+        <div>
+            <div>
+                <button id="googlebtn"><img src="./images/googlelogo.png" class="innerLogo">Google</button>
+            </div>
+            <div>
+                <button id="facebookbtn"><img src="./images/fblogo.png" class="fbinnerlogo">facebook</button>
+            </div>
+        </div>
+    </div>
+    <h2 id="displayResult">
+
+    </h2>
+</div>
+
+<div id="imgDiv">
+  <img src="./images/banner.jpg" width="600" height="515" />
+</div>
+
+
+
+</body>
+</html>

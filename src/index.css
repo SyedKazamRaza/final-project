@@ -1,0 +1,159 @@
+
+body{
+    background-color: white;
+    font-family: Arial;
+}
+.datafield{
+    margin-left: 10%;
+    margin-top: 2%;
+    position: absolute;
+    height: 69%;
+    width: 30%;
+
+    -webkit-box-shadow: -1px 1px 5px 12px rgba(92,32,171,0.22);
+    -moz-box-shadow: -1px 1px 5px 12px rgba(92,32,171,0.22);
+    box-shadow: -1px 1px 5px 12px rgba(92,32,171,0.22);
+}
+.datafield2{
+    margin-left: 10%;
+    margin-top: 2%;
+    position: absolute;
+    height: 78%;
+    width: 30%;
+
+    -webkit-box-shadow: -1px 1px 5px 12px rgba(92,32,171,0.22);
+    -moz-box-shadow: -1px 1px 5px 12px rgba(92,32,171,0.22);
+    box-shadow: -1px 1px 5px 12px rgba(92,32,171,0.22);
+}
+.loginHead{
+    display: inline-block;
+}
+#signUpLine{
+    position: absolute;
+    top: 60px;
+
+}
+#InnerData{
+    margin: 20px 20px;
+    height: 100px;
+    width:90%;
+}
+
+.inlineOne{
+    display: inline-block;
+}
+.inlineTwo{
+    display: inline-block;
+}
+
+#imgDiv{
+    display: inline-block;
+    margin-left: 45%;
+}
+#signupImg{
+    display: inline-block;
+    margin-left: 50%;
+    margin-top: 9%;
+}
+.fields{
+    width: 93%;
+    height: 30px;
+    border-radius: 5px;
+}
+#forgotPass{
+    padding-left: 120px;
+    color: darkorchid;
+}
+
+#myButton{
+    background-color: darkorchid;
+    border-radius: 5px;
+    color: white;
+    font-family: Arial;
+    width: 320px;
+    height: 40px;
+}
+#firstbtn{
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    font-family: Arial;
+    width: 160px;
+    height: 40px;
+    border: none;
+}
+#secondbtn{
+    background-color: rgb(130, 233, 130);
+    border-radius: 5px;
+    color: green;
+    font-family: Arial;
+    width: 160px;
+    height: 40px;
+    border: none;
+}
+#lineOne{
+    width:26%;
+    text-align:left;
+    margin-left:0;
+    position: absolute;
+}
+#loginPara{
+    display: inline;
+    margin-left: 34%;
+}
+#lineTwo{
+    width:26%;
+    margin-left:3%;
+    display: inline-block;
+    position: absolute;
+}
+
+
+#googlebtn {
+    background-color: white;
+    color: white;
+    color: red;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 12px;
+    cursor: pointer;
+    border: 1px solid red;
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    padding-left: 45px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#facebookbtn{
+    background-color: white;
+    color: #154682;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 190px;
+    cursor: pointer;
+    border: 1px solid blue;
+    width: 150px;
+    height: 40px;
+    padding-left: 45px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.innerLogo{
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 35px;
+    top: 5px;
+}
+.fbinnerlogo{
+    height: 26px;
+    width: 26px;
+    background-repeat: no-repeat;
+    left: 20px;
+    top: 5px;
+}

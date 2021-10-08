@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> All Products - RedStore</title>
+  <link rel="stylesheet" href="Styles.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+
+  
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img src="./images/logo.jpg" alt="logo pic" width="125px">
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Register</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            <li><a href="Shop.html">Shop</a></li>
+            <li><a href="shopItem1.html">Shop Item</a></li>
+          </ul>
+        </nav>
+       <a href="cart.html"> <img src="images/cart.png" width="30px" height="30px" alt=""></a>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+      </div>
+
+    </div>
+  
+
+  <!----- Featured Products ----->
+  <div class="small-container">
+   <div class="row row-2">
+     <h1 style="margin-left: 30%; color: red;">All Available Products</h1>
+     <select >
+       <option>Default Sorting</option>
+       <option>Sort by price</option>
+       <option>Sort by popularity</option>
+       <option>Sort by rating</option>
+       <option>Sort by sale</option>
+     </select>
+   </div>
+    <div class="row">
+      <div class="col-4">
+        <img src="images/product-1.jpg" alt="">
+        <h4>Red Printed T-shirt</h4>
+        <div class="ratting">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="far fa-star"></i>
+
+        </div>
+        <p>$50.00</p>
+      </div>
+      <div class="col-4">
+        <img src="images/product-2.jpg" alt="">
+        <h4>Black Running Shoes</h4>
+        <div class="ratting">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <i class="far fa-star"></i>
+
+        </div>
+        <p>$20.00</p>
+      </div>
+      <div class="col-4">
+        <img src="images/product-3.jpg" alt="">
+        <h4>Slim Fit Trousers</h4>
+        <div class="ratting">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+
+        </div>
+        <p>$35.00</p>
+      </div>
+      <div class="col-4">
+        <img src="images/product-4.jpg" alt="">
+        <h4>Causal T-shirt</h4>
+        <div class="ratting">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+
+        </div>
+        <p>$42.00</p>
+      </div>
+   
+      <div class="row">
+        <div class="col-4">
+          <img src="images/product-5.jpg" alt="">
+          <h4>Winter Shoes</h4>
+          <div class="ratting">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+  
+          </div>
+          <p>$70.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-6.jpg" alt="">
+          <h4>Branded Puma T-shirt</h4>
+          <div class="ratting">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            
+  
+          </div>
+          <p>$20.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-7.jpg" alt="">
+          <h4>3 pairs of Sockes</h4>
+          <div class="ratting">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+  
+          </div>
+          <p>$15.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-8.jpg" alt="">
+          <h4>Black Metal Wrist Watch</h4>
+          <div class="ratting">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+  
+          </div>
+          <p>$79.99</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/product-9.jpg" alt="">
+          <h4>Pure Leater Wrist Watch</h4>
+          <div class="ratting">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="far fa-star"></i>
+  
+          </div>
+          <p>$55.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-10.jpg" alt="">
+          <h4>Stylish Running Shoes</h4>
+          <div class="ratting">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="far fa-star"></i>
+  
+          </div>
+          <p>$60.50</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-11.jpg" alt="">
+          <h4>Grey Causal Shoes</h4>
+          <div class="ratting">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="far fa-star"></i>
+  
+          </div>
+          <p>$35.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-12.jpg" alt="">
+          <h4>Cutton Trousers</h4>
+          <div class="ratting">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="far fa-star"></i>
+  
+          </div>
+          <p>$22.00</p>
+        </div>
+      </div>
+
+<div class="page-btn">
+  <span>1</span>
+  <span>2</span>
+  <span>3</span>
+  <span>4</span>
+  <span>&#8594;</span>
+</div>
+
+  </div>
+  
+<!---Footer--->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Download Our App</h3>
+        <p>Download App for Andriod and ios mobile phones.</p>
+        <div class="app-logo">
+          <img src="images/play-store.png" alt="">
+        <img src="images/app-store.png" alt="">
+        </div>
+      </div>
+
+      <div class="footer-col-2">
+        <img src="./images/logo.jpg" alt="">
+        <p>Our purpose is to Sustainaly make the pleasure and Benefits of Sports Accessible to the Many.</p>
+      </div>
+
+      <div class="footer-col-3">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>Coupons</li>
+          <li>Blog Post</li>
+          <li>Return Policy</li>
+          <li>Join Affiliate</li>
+        </ul>
+      </div>
+
+      <div class="footer-col-4">
+        <h3>Follow us</h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+          <li>YouTube</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p class="copy-right">Copyright 2020 - MyStore</p>
+  </div>
+</div>
+<!---JS--->
+<script>
+  var MenuItems = document.getElementById("MenuItems");
+
+  MenuItems.style.maxHeight = "0px";
+
+  function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px")
+    {
+      MenuItems.style.maxHeight = "200px";
+    }
+    else{
+      MenuItems.style.maxHeight = "0px";
+    }
+  }
+</script>
+</body>
+
+</html>
